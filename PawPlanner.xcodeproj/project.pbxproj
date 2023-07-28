@@ -73,8 +73,8 @@
 		94A19F2F2A734709007818C3 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		94A19F302A734709007818C3 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		94A19F312A734709007818C3 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		94AB5E212A734A660002A12B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = ../ImagePicker.swift; sourceTree = "<group>"; };
-		94AB5E252A734AAA0002A12B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		94AB5E212A734A660002A12B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = Poppins/ImagePicker.swift; sourceTree = "<group>"; };
+		94AB5E252A734AAA0002A12B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Task/AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,11 +134,11 @@
 				940384442A7347A70078E072 /* Task */,
 				94A19EFE2A7346A9007818C3 /* Poppins */,
 				94A19EE82A734337007818C3 /* PawPlannerApp.swift */,
-				94A19EEA2A73438C007818C3 /* ContentView.swift */,
 				94AB5E212A734A660002A12B /* ImagePicker.swift */,
-				94AB5E252A734AAA0002A12B /* AppDelegate.swift */,
-				949AFD3D2A726D0100ACFD4F /* Assets.xcassets */,
+				94A19EEA2A73438C007818C3 /* ContentView.swift */,
 				94A19EEE2A734612007818C3 /* Persistence.swift */,
+				949AFD3D2A726D0100ACFD4F /* Assets.xcassets */,
+				94AB5E252A734AAA0002A12B /* AppDelegate.swift */,
 				949AFD472A726D0100ACFD4F /* Info.plist */,
 				949AFD442A726D0100ACFD4F /* PawPlanner.xcdatamodeld */,
 				949AFD3F2A726D0100ACFD4F /* Preview Content */,
