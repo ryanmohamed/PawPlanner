@@ -89,12 +89,12 @@ struct EditPetView: View {
             }
             Spacer() // Pushes the button to the bottom of the screen
             Button(action: {
-                if !name.isEmpty, !species.isEmpty, !breed.isEmpty, !age.isEmpty, !weight.isEmpty, !dietaryRestrictions.isEmpty, !medication.isEmpty {
+                if !name.isEmpty, !species.isEmpty, !breed.isEmpty, !age.isEmpty, !weight.isEmpty {
                     pet.name = name
                     pet.species = species
                     pet.breed = breed
                     pet.age = Int16(age) ?? 1
-                    pet.weight = Float(weight) ?? 8
+                    pet.weight = Double(weight) ?? 8
                     pet.dietaryRestrictions = dietaryRestrictions
                     pet.medication = medication
                     if let inputImage = inputImage {

@@ -72,7 +72,7 @@ struct AddPetView: View {
                 pet.species = self.species
                 pet.breed = self.breed
                 pet.age = Int16(self.age) ?? 0
-                pet.weight = Float(self.weight) ?? 0.0
+                pet.weight = Double(self.weight) ?? 0.0
                 pet.image = inputImage?.pngData()
 
                 do {
