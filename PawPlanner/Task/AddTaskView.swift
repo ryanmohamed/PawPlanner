@@ -48,10 +48,15 @@ struct AddTaskView: View {
 
                     TextField("Description", text: $desc)
                         .font(.custom("Poppins", size: 16)) // Custom font
-
-                    DatePicker("Date", selection: $taskTime, displayedComponents: .hourAndMinute)
-                        .font(.custom("Poppins", size: 16)) // Custom font
-
+                    if taskFrequency == TaskFrequency.oneTime {
+                        DatePicker("Date", selection: $taskTime)
+                            .font(.custom("Poppins", size: 16)) // Custom font
+                    }
+                    else {
+                        DatePicker("Date", selection: $taskTime, displayedComponents: .hourAndMinute)
+                            .font(.custom("Poppins", size: 16)) // Custom font
+                    }
+                    
                     Picker("Frequency", selection: $taskFrequency) {
                         ForEach(TaskFrequency.allCases, id: \.self) { frequency in
                             Text(frequency.rawValue.capitalized).tag(frequency)
